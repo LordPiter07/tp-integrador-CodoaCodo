@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del menu de navegacion*/
+
+header {
+    background-color: #394867;
+}
+
+.divLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divLogo p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: whitesmoke;
+}
+
+.navItem a {
+    color: whitesmoke;
+}
+
+/* Estilos seccion uno */
+
+.divS1 {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/ba1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100%;
+    text-align: end;   
+}
+
+.parrafoUno {
+    font-size: 17px;
+    color: whitesmoke;
+    padding: 0px 100px 0 500px;
+}
+
+.parrafoUno h1 {
+    font-size: 28px;
+}
+
+.btnOrador {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(245, 245, 245, 0.85);
+    border: 1px solid rgba(245, 245, 245, 0.8);
+    margin-right: 10px;
+}
+
+.btnTicket {
+    padding: 7px;
+    border-radius: 7px;
+    background-color: #05bd7f;
+    color: whitesmoke;
+    border-style: none;
+}
+
+/* Estilos Seccion dos */
+
+.sectionDos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sectionDos button {
+    border-radius: 5px;
+    border-style: none;
+    padding: 3px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.card{
+    padding: 0;
+    margin: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.btnJs {
+    background-color: #F9D949;
+}
+
+.btnReact {
+    background-color: #A6D0DD;
+}
+
+.btnNegocios {
+    background-color: #F45050;
+}
+
+.btnStartup {
+    background-color: #3C486B;
+}
+
+
+/* Estilos seccion tres */
+
+.sectionTres {
+    text-align: left;
+}
+
+.sectiontres img {
+    width: 100%;
+}
+
+.parrafo {
+    color: whitesmoke;
+    background-color: #394867;
+    padding: 20px;
+}
+
+.parrafo p {
+    font-size: 14px;
+}
+
+.parrafo button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(245, 245, 245, 0.85);
+    border: 1px solid rgba(245, 245, 245, 0.8);
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Estilos seccion cuatro */
+
+.sectionCuatro {
+    text-align: center;
+    margin: 10px 0 30px 0 ;
+}
+
+.form {
+    width: 50%;
+}
+
+.formMsj{
+    padding: 10px;
+}
+
+.formMsj input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 130px;
+}
+
+.formButton {
+    padding: 10px;
+}
+
+.formButton input {
+    height: 50px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: #05bd7f;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.nombre input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+.apellido input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+}
+
+/* Estilos del footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: #394867;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    padding: 20px;
+}
